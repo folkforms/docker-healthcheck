@@ -1,0 +1,15 @@
+{
+  "name": "docker-healthcheck",
+  "version": "0.0.0",
+  "description": "Repeatedly checks the health of a docker container until success/failure/timeout.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "folkforms",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
