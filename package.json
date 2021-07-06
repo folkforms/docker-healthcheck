@@ -1,7 +1,7 @@
 {
   "name": "docker-healthcheck",
   "version": "0.0.1",
-  "description": "Repeatedly checks the health of a docker container until success/failure/timeout.",
+  "description": "Repeatedly checks the health of a docker container until success/failure/max retries.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,6 +9,10 @@
     "release": "yarn test && npm whoami && yarn install --production --force && npm version patch && npm publish && yarn install"
   },
   "author": "folkforms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/folkforms/docker-healthcheck"
+  },
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.8.4"
