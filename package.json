@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo No tests yet...",
-    "release": "yarn test && npm whoami && yarn install --production --force && npm version patch && npm publish && yarn install",
+    "release": "yarn test && npm whoami && yarn install --production --force && npm version patch && npm publish && yarn install"
   },
   "author": "folkforms",
   "license": "ISC",
